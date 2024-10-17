@@ -56,15 +56,13 @@ public class DataHandler {
     }
     
     
-    public void writeQuestionId(int questionId)
-    {
-        String questionIdString = Integer.toString(questionId);
-        
+    public void writeLine(String str)
+    { 
         try
         {
-            dataWriter.write(questionIdString + '\n');
+            dataWriter.write(str + '\n');
             questionsWrote++;
-            System.out.println("Wrote " + questionIdString);
+            System.out.println("Wrote " + str);
         }
         catch(Exception e)
         {
