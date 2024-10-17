@@ -6,9 +6,11 @@ import java.util.Scanner;
 
 class HtmlParser {
     private File htmlFile;
-
-    public HtmlParser(String filePath) {
-        this.htmlFile = new File(filePath);
+    private DataHandler dataHandler;
+    
+    public HtmlParser(String htmlFile, String dataFile) {
+        this.htmlFile = new File(htmlFile);
+        this.dataHandler = new DataHandler(dataFile);
     }
 
     public void processFile() {
@@ -21,7 +23,7 @@ class HtmlParser {
 
                     // Skip if the points are "0"
                     if (!"0".equals(foundString)) {
-                        processPointsLine(htmlReader, Integer.parseInt(foundString));
+                        processQuestion(htmlReader, Integer.parseInt(foundString));
                     }
                 }
             }
@@ -29,13 +31,14 @@ class HtmlParser {
             System.out.println("File not found: " + htmlFile.getName());
         }
         System.out.println("Processing finished");
+        dataHandler.closeFiles();
     }
 
     private boolean isPointsLine(String line) {
         return line.matches(".*\\s\\s\\d");
     }
 
-    private void processPointsLine(Scanner htmlReader, int points) {
+    private void processQuestion(Scanner htmlReader, int points) {
         while (htmlReader.hasNextLine()) {
             String line = htmlReader.nextLine();
 
@@ -44,6 +47,7 @@ class HtmlParser {
 
                 if (outOf == points) {
                     extractAndWriteQuestionId(htmlReader);
+                    //extractAndWriteQuestion(htmlReader);
                     break;
                 } else {
                     break; // Exit when the points don't match
@@ -63,9 +67,9 @@ class HtmlParser {
 
             if (line.contains("id=\"question_")) {
                 int questionId = extractQuestionId(line);
-                if(!isExistingQuestionId(questionId))
+                if(!dataHandler.isExistingQuestionId(questionId))
                 {
-                    writeQuestionId();
+                    dataHandler.writeQuestionId(questionId);
                 }
                 break;
             }
@@ -78,46 +82,7 @@ class HtmlParser {
         return Integer.parseInt(line.substring(index1, index2));
     }
     
-    private boolean isExistingQuestionId(int questionId)
-    {
-        try
-        {
-            File dataFile = new File("data.txt");
-            Scanner dataReader = new Scanner(dataFile);
-            boolean isFound = false;
-            while(dataReader.hasNextLine())
-            {
-                String line = dataReader.nextLine();
-                if(line.contains(Integer.toString(questionId)))
-                {
-                    isFound = true;
-                    break;
-                }
-            }
-            return isFound;
-        }
-        catch(Exception e)
-        {
-            System.out.println("isExistingQuestionId Failed");
-            System.exit(1);
-            return false;
-        }
-    }
     
-//    private void writeQuestionId(int questionId)
-//    {
-//        String questionIdString = Integer.toString(questionId);
-//        
-//        try
-//        {
-//            File dataFile = new File("data.txt");
-//            Scanner dataReader = new Scanner(dataFile);
-//        }
-//        catch(Exception e)
-//        {
-//            System.out.println("writeQuestionId Failed");
-//            System.exit(1);
-//        }
-        
-    }
+    
+
 }

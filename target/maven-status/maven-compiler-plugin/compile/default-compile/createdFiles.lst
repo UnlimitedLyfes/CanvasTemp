@@ -1,2 +1,3 @@
 com\mycompany\_canvas\App.class
+com\mycompany\_canvas\DataHandler.class
 com\mycompany\_canvas\HtmlParser.class

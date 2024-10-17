@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        HtmlParser parser = new HtmlParser("html.txt");
+        HtmlParser parser = new HtmlParser("html.txt", "data.txt");
         parser.processFile();
     }
 }
