@@ -1,80 +1,76 @@
-16373012
-How do I print out numbers on JAVA?
-System.out.println('#');
+16296847
+A _____ is a procedure associated with a class that describes an action an object is able to perform.
+method
 
-16372598
-Encapsulation means "open to all" and indicates that the internal workings of an object are entirely visible to the outside world.
+16372570
+________ is a technique of solving a problem and breaking it down into smaller parts and solving each of the smaller problems.
+Procedural Programming
+
+16372567
+Which concept of Java is a way of converting real world objects in terms of class?
+Abstraction
+
+16373293
+When we want to print in Java, we use the code ......
+System.out.println();
+
+16372558
+True or False: // allows for a single line comment?
 True
 
-16296848
-OOP describes the task to be performed on objects.
+16271100
+Standard Methods – implement the business rules for which the application is being developed
 false
 
-16372543
-Which one of these is a data type?
-bit
+16372602
+Global Variables are variables used in a method
+false
 
-16373011
-What is it called if an object has its own lifecycle and there is no owner?
-Encapsulation
-
-16372920
-_________– implement the business rules for which the application is being developed
-Constructor Method
-
-16373201
-a method a method that is accessible from all classes.
-protected method
-
-16373014
-this() can be used to invoke current class constructor.
+16373179
+final Method: a method that cannot be overridden
 true
 
-16296853
-a variable that is accessible within and outside the package but through inheritance only.
-private variable
-
-16372600
-Accessor (Getter) – a method that is used to access or retrieve data.
+16372601
+this - It represents an instance of the class in which it appears
 true
 
-16372550
-Encapsulation is supported by ___________
-Classes
-
-16271107
-Encapsulation has poor control of class attributes and methods
+16373183
+this can be used to refer current class instance variable.
 true
 
 16372743
 While using encapsulation, which among the following is possible?
-Member functions can be used to change the data type of data members
+Data member's data type can be changed without changing any other code
 
-16372834
-Encapsulation has Better control of class attributes and methods
-false
+16271103
+Which among the following best describes encapsulation?
+It is a way of combining various data members and member functions that operate on those data members into a single unit
 
-16372563
-If data members are private, what can we do to access them from the class object?
-Private data members can never be accessed from outside the class
+16372835
+Abstraction is the way to add functions in a user defined structure.
+False
 
-16372500
-Which among the following best describes multiple inheritance?
-Two classes being parent of any other classes
+16296856
+Using encapsulation data security is ___________
+Ensured to some extent
 
-16373163
-Which programming language doesn't support multiple inheritance?
-C and C++
+16372552
+Which among the following should be encapsulated?
+The data which is prone to change is near future
 
 16372604
 In hierarchical inheritance, all the classes involve some kind of inheritance.
 False
 
-16372836
-Which among the following best defines single level inheritance?
-A class inheriting a derived class
+16373163
+Which programming language doesn't support multiple inheritance?
+Java
 
-16296862
-Single level inheritance will be best for___________
-Inheriting a class which can print all the calculation results
+16372574
+Which among the following is true?
+Java doesn't support multiple inheritance
+
+16271112
+Which constructor will be called first from the classes involved in single inheritance from object of derived class?
+Base class constructor
 

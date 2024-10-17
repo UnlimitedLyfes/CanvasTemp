@@ -47,18 +47,18 @@ class HtmlParser {
             int index1 = line.indexOf("/ ") + 2;
             int index2 = line.indexOf('<', index1);
             String highestScore = line.substring(index1, index2);
-            System.out.println(highestScore);
-            System.out.println(score.equals(highestScore));
             return score.equals(highestScore);
         }
         return false;
     }
 
     private void processQuestion(Scanner htmlReader, int points) {
-        extractAndWriteQuestionId(htmlReader);
-        extractAndWriteQuestion(htmlReader);
-        extractAndWriteAnswer(htmlReader);
-        dataHandler.writeLine("");
+        if(extractAndWriteQuestionId(htmlReader))
+        {
+            extractAndWriteQuestion(htmlReader);
+            extractAndWriteAnswer(htmlReader);
+            dataHandler.writeLine("");
+        }
     }
 
     private int extractOutOfValue(String line) {
@@ -66,19 +66,22 @@ class HtmlParser {
         return Integer.parseInt(line.substring(index, index + 1));
     }
 
-    private void extractAndWriteQuestionId(Scanner htmlReader) {
+    private boolean extractAndWriteQuestionId(Scanner htmlReader) {
         while (htmlReader.hasNextLine()) {
             String line = htmlReader.nextLine();
 
             if (line.contains("id=\"question_")) {
                 int questionId = extractQuestionId(line);
-                if(!dataHandler.isExistingQuestionId(questionId))
+                boolean doesNotExist = !dataHandler.isExistingQuestionId(questionId);
+                if(doesNotExist)
                 {
                     dataHandler.writeLine(Integer.toString(questionId));
                 }
-                break;
+                System.out.println(doesNotExist);
+                return doesNotExist;
             }
         }
+        return false;
     }
 
     private int extractQuestionId(String line) {
@@ -98,10 +101,14 @@ class HtmlParser {
     {
         //<div class="answer_text" style="display:none;">B salary is: 4000.0 Bonus of B is: 10000</div>
         //<div class="answer_text">System.out.println(#);</div>
+        boolean isSelectedAnswer = false;
         while (htmlReader.hasNextLine()) {
             String line = htmlReader.nextLine();
-
-            if (line.contains("<div class=\"answer_text\"")) {
+            if(!isSelectedAnswer && line.contains("selected_answer"))
+            {
+                isSelectedAnswer = true;
+            }
+            if (isSelectedAnswer && line.contains("<div class=\"answer_text\"")) {
                 line = extractAnswer(line);
                 dataHandler.writeLine(line);
                 break;
