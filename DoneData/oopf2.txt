@@ -1,0 +1,351 @@
+16258904
+
+0 1 2 3 4 5 6 7 8
+
+16259330
+An operator that can be used to add String objects.
++
+
+16259358
+The for loop executes a given statement or block of statements repeatedly as long as the value of the expression is true.
+false
+
+16242556
+An operator that increases the value of operand by 1.
+++
+
+16259447
+
+2 Month and 9 days
+
+16259423
+
+6
+
+16244400
+10&gt;15 &amp;&amp; 2&lt;3&amp;&amp;100&lt;23
+false
+
+16244406
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ...
+
+16258964
+
+Compilation Error
+
+16259553
+The ____ statement enables your program to selectively execute other statements, based on some criteria
+if
+
+16259648
+<span style="font-size: 13.5pt; font-family: Roboto , serif;">Which of the following declares an array of integers named number?</span>
+int [ ] number ;
+
+16259416
+It is a mathematical function that takes two operands and performs a calculation on them.
+arithmetic operator
+
+16259419
+
+4
+
+16259448
+
+e = 50 e = 51
+
+16258951
+shift operator returns the result of shifting the bits of the left operand by the number of positions specified by the right operand.
+true
+
+16258902
+The _____ statement causes the program flow to exit prematurely from the body of the loop statement.
+break
+
+16259181
+
+2 4
+
+16244403
+The _______ loop facilitates evaluation of condition or expression at the end of the loop to ensure that the statements are executed at least once
+do while
+
+16261468
+Consider the following codes:
+1
+
+16259456
+
+ArrayOutput2 does not compile, but ArrayOutput1 will compile
+
+16259176
+
+Lamp switch-on true Lamp switch-on true
+
+16258906
+
+Throws ArrayIndexOutOfBoundsException
+
+16259510
+
+Lamp switch-on false Lamp switch-on false
+
+16259997
+
+hi hi hi bye
+
+16259944
+An operator that copies a bit to the result if it exists in both operands.
+&amp; (bitwise AND)
+
+16259175
+It divides left operand with the right operand and assign the result to left operand.
+/=
+
+16259684
+What is the result of 7%2
+1
+
+16260203
+
+1
+
+16242561
+It subtracts right operand from the left operand and assign the result to left operand.
+-=
+
+16259467
+When a piece of code runs unintentionally forever it is known as
+An infinite loop
+
+16259452
+
+x = 3 x = 2 x = 1 x = 0 x = -1
+
+16258896
+An operator that subtracts right-hand operand from left-hand operand.
+-
+
+16259425
+<b><span style="font-size: 13.5pt; font-family: Roboto , serif;">What is the index value of the first element?</span></b>
+0
+
+16260431
+The continue statement causes the program flow to exit prematurely from the body of the loop statement.
+false
+
+16259327
+
+1 0 0 0 0 0 0 1 8 0 0 0 0 0 1 8 7 0 0 0 0 1 8 7 4 0 0 0 1 8 7 4 5 0 0 1 8 7 4 5 6 0 1 8 7 4 5 6 3
+
+16259445
+An operator that divides left-hand operand by right-hand operand and returns remainder.
+%
+
+16258905
+
+"Prints = 7"
+
+16259335
+The break statement causes the program flow to skip over and jump to the end of the loop body, and then return the control to the loop control statement.
+false
+
+16259178
+The while loop executes a given statement or a block of statements for a definite number of times.
+false
+
+16259348
+
+0 1 2 3 4
+
+16258953
+What is the result of -7%2
+-1
+
+16262416
+Which is first incremented and then used?
+++x
+
+16242558
+An operator that copies a bit if it exists in either operand.
+| (bitwise OR)
+
+16259685
+
+3
+
+16259360
+The lbl identifies any valid statement to which control must be transferred
+false
+
+16242571
+
+10 9 8 7 6
+
+16259994
+
+Throws ArrayIndexOutOfBoundsException
+
+16260425
+Use to reverse the logical state of its operand.
+!
+
+16259343
+If both the operands are non-zero, then the condition becomes true.
+&amp;&amp;
+
+16258958
+
+true false false true true
+
+16260505
+The label identifies any valid statement to which control must be transferred
+true
+
+16259332
+
+1146 11
+
+16258908
+
+1 1 1 1 1 1 1 0 8 8 8 8 8 8 0 0 7 7 7 7 7 0 0 0 4 4 4 4 0 0 0 0 5 5 5 0 0 0 0 0 6 6 0 0 0 0 0 0 3
+
+16259992
+
+2
+
+16244395
+Increment operators increase the value of the variable by a particular number by which it is increased
+true
+
+16259647
+
+12, 11, 13, 9, 15, 25
+
+16259357
+
+a=11024
+
+16259182
+
+Holding the name, social security number, age, and income of one individual.
+
+16259993
+
+false true
+
+16242567
+The break statement causes the program flow to exit from the body of the switch construct.
+true
+
+16259331
+
+4 5 266
+
+16259686
+The continue statement causes the program flow to exit from the body of the switch construct.
+false
+
+16259336
+
+j = j+2
+
+16242557
+Dividing integer by zero results in the throwing of ____________
+ArithmeticException
+
+16259359
+The break statement causes the program flow to exit prematurely from the body of the loop statement.
+true
+
+16244409
+
+Result = 4320
+
+16258954
+
+1
+
+16258961
+
+1 2 3
+
+16258965
+
+Throws ArrayIndexOutOfBoundsException
+
+16259942
+is an operator used to perform bitwise operations on bit patterns or binary numerals that involve the manipulation of individual bits
+bitwise operator
+
+16242560
+
+1
+
+16259995
+<b><span style="font-size: 13.5pt; font-family: Roboto , serif;">What is the Enhanced for Loop (foreach)?</span></b>
+It transverses all elements of a collection.
+
+16259741
+
+4
+
+16259996
+The ________ identifies any valid statement to which control must be transferred
+label
+
+16258960
+The ______ loop executes a given statement or block of statements repeatedly as long as the value of the expression is true.
+while
+
+16244404
+
+hi hi hi
+
+16244407
+
+Result of multiplying every element = 630.
+
+16259352
+An operator that has the effect of 'flipping' bits.
+~ (bitwise compliment)
+
+16259421
+The for loop facilitates evaluation of condition or expression at the end of the loop to ensure that the statements are executed at least once
+false
+
+16259742
+
+Result = 4320
+
+16242566
+
+10
+
+16259184
+
+1 0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 3
+
+16242565
+
+a | b = true a b = false a ^ b = true a ^ !b = false !a b = false !a || !b = true
+
+16242568
+The ______ loop executes a given statement or a block of statements for a definite number of times.
+for
+
+16258959
+The case statement is used to conditionally perform statements based on an integer expression
+false
+
+16259334
+The for loop is for traversing items in a collection
+false
+
+16259323
+The statements associated with else keyword is executed if the value of the switch variable does not match any of the case constants.
+true
+
+16259341
+What is the operator in which The left operands value is moved right by the number of bits specified by the right operand and shifted values are filled up with zeros.
+>>>

@@ -1,0 +1,336 @@
+16296847
+A _____ is a procedure associated with a class that describes an action an object is able to perform.
+method
+
+16372570
+________ is a technique of solving a problem and breaking it down into smaller parts and solving each of the smaller problems.
+Procedural Programming
+
+16372567
+Which concept of Java is a way of converting real world objects in terms of class?
+Abstraction
+
+16373293
+When we want to print in Java, we use the code ......
+System.out.println();
+
+16372558
+True or False: // allows for a single line comment?
+True
+
+16271100
+Standard Methods – implement the business rules for which the application is being developed
+false
+
+16372602
+Global Variables are variables used in a method
+false
+
+16373179
+final Method: a method that cannot be overridden
+true
+
+16372601
+this - It represents an instance of the class in which it appears
+true
+
+16373183
+this can be used to refer current class instance variable.
+true
+
+16372743
+While using encapsulation, which among the following is possible?
+Data member's data type can be changed without changing any other code
+
+16271103
+Which among the following best describes encapsulation?
+It is a way of combining various data members and member functions that operate on those data members into a single unit
+
+16372835
+Abstraction is the way to add functions in a user defined structure.
+False
+
+16296856
+Using encapsulation data security is ___________
+Ensured to some extent
+
+16372552
+Which among the following should be encapsulated?
+The data which is prone to change is near future
+
+16372604
+In hierarchical inheritance, all the classes involve some kind of inheritance.
+False
+
+16373163
+Which programming language doesn't support multiple inheritance?
+Java
+
+16372574
+Which among the following is true?
+Java doesn't support multiple inheritance
+
+16271112
+Which constructor will be called first from the classes involved in single inheritance from object of derived class?
+Base class constructor
+
+16372742
+Where does a java program start executing instructions from:
+main method
+
+16372706
+Which of the following concept is often expressed by the phrase, 'One interface, multiple methods'?
+Polymorphism
+
+16296845
+Method overriding is combination of inheritance and polymorphism?
+True
+
+16372598
+Encapsulation means "open to all" and indicates that the internal workings of an object are entirely visible to the outside world.
+False
+
+16271101
+this - It can be used to access class variables and methods.
+true
+
+16372496
+a method that is only accessible within the class where it is declared.
+private method
+
+16372571
+Class Variables are variables stored in the class and are available to all objects of a class or objects of other classes if access is permitted
+true
+
+16296854
+The encapsulation is achieved by combining which ones into a class?
+Methods and Attribute
+
+16372498
+Encapsulation is also called as?
+Data Hiding
+
+16372572
+Encapsulation is implemented by using__________
+private
+
+16372563
+If data members are private, what can we do to access them from the class object?
+Create public member functions to access those data members
+
+16372963
+How many classes can be inherited by a single class in java?
+Only 1
+
+16372922
+If single inheritance is used, program will contain ________________
+At least 2 classes
+
+16372566
+If base class contains 2 nested classes, will it be possible to implement single level inheritance?
+Yes, always
+
+16372610
+Which among the following best describes the Inheritance?
+Using the data and functions into derived segment
+
+16271094
+State of an object are also known as
+properties
+
+16372542
+Which of following statement(s) can result in new object instance creation if executed successfully.
+All
+
+16372921
+This – contains a reference to the current object being constructed
+false
+
+16372831
+Constructor – a method that is automatically executed when an object is created. This method is used to initialize the attributes.
+true
+
+16271098
+Attributes –  declared either at the start or end of a class definition. These variables identify the  data stored in the object.
+true
+
+16296858
+In Inheritance, the programmer can change one part of the code without affecting other parts
+false
+
+16296857
+There is no security of data with Encapsulation
+false
+
+16372564
+How can you make the private members inheritable?
+It can be done both by making the visibility mode public or protected
+
+16372837
+If a base class is inherited in protected access mode then which among the following is true?
+Public and Protected members of base class becomes protected members of derived class
+
+16372836
+Which among the following best defines single level inheritance?
+A class inheriting a base class
+
+16372599
+What is the difference between a class and an object?
+A class is a blueprint to make an object
+
+16373057
+a method that is accessible within and outside the package but through inheritance only.
+protected
+
+16372545
+These variables identify the  data stored in the object.
+Attributes
+
+16372497
+static Variable used in defining a class variable
+true
+
+16372611
+Which among the following is correct for a hierarchical inheritance?
+One base class can be derived into other two derived classes or more
+
+16372501
+If multi-level inheritance is used, First class B inherits class A, then C inherits B and so on. Till how many classes can this go on?
+There is no limit
+
+16271108
+Which is the correct syntax of inheritance?
+class derived_classname : access base_classname{ /*define class body*/ };
+
+16372554
+Which among the following defines single level inheritance?
+One derived class inherits from one base class
+
+16372597
+When Overloading does not occur?
+More than one method with same name, same number of parameters and type but different signature
+
+16373000
+Which of the following is a mechanism by which object acquires the properties of another object?
+Inheritance
+
+16372557
+Which statement(s) best describes an object's behavior?
+Behavior acts like the verbs of an object.
+
+16373012
+How do I print out numbers on JAVA?
+System.out.println(#);
+
+16372492
+True or False: This line of code is correct System.out.println("Hi!");
+True
+
+16372832
+this keyword can be passed as an argument in the method call.
+true
+
+16372549
+Instance Variables are variables stored in the class and are available to all objects of a class or objects of other classes if access is permitted
+false
+
+16271102
+a variable that is only accessible within a class where it is declared
+private variable
+
+16372603
+There is an Increased security of data with Encapsulation
+true
+
+16372551
+Encapsulation is implemented by using private
+true
+
+16296862
+Single level inheritance will be best for___________
+Inheriting a class which can print all the calculation results
+
+16296848
+OOP describes the task to be performed on objects.
+true
+
+16372543
+Which one of these is a data type?
+byte
+
+16373011
+What is it called if an object has its own lifecycle and there is no owner?
+Association
+
+16372920
+_________– implement the business rules for which the application is being developed
+Custom Methods
+
+16373201
+a method a method that is accessible from all classes.
+public method
+
+16373014
+this() can be used to invoke current class constructor.
+true
+
+16296853
+a variable that is accessible within and outside the package but through inheritance only.
+protected variable
+
+16372600
+Accessor (Getter) – a method that is used to access or retrieve data.
+true
+
+16372550
+Encapsulation is supported by ___________
+Classes
+
+16271107
+Encapsulation has poor control of class attributes and methods
+false
+
+16372834
+Encapsulation has Better control of class attributes and methods
+true
+
+16372500
+Which among the following best describes multiple inheritance?
+More than one class being parent of single child
+
+16372493
+The focus of procedural programming is to break down a programming task into a collection of variables, data structures, and subroutines
+true
+
+16373174
+Select correct statements about class(es).
+All
+
+16296850
+_________– a method that is used to access or retrieve data.
+Accessor (Getter)
+
+16372546
+_________– used to change or access the private data in an object.
+Standard Methods
+
+16373138
+static Method: used in defining a class method
+true
+
+16271106
+In Encapsulation, the programmer can change one part of the code without affecting other parts
+true
+
+16372833
+Which among the following would destroy the encapsulation mechanism if it was allowed in programming?
+Using access declaration for private members of base class
+
+16271111
+Which type of inheritance cannot involve private inheritance?
+All types can have private inheritance
+
+16372575
+What is the output of the following program? class A { float sal = 40000; }...
+B salary is: 4000.0 Bonus of B is: 10000
+

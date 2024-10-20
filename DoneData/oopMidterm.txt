@@ -1,0 +1,1180 @@
+16167728
+A function in C language is similar to what in Java language?
+Method
+
+16168837
+In standalone Java applications, which method is mandatory?
+main method
+
+16167341
+Netbeans started as a student project called Xelfi
+true
+
+16167324
+A feature of Netbeans that enables support for multiple source roots, easy management of libraries, easily ported to other environments, all based on Apache Ant.
+project system
+
+16167552
+nextLong () reads a long value from the user.
+true
+
+16167521
+API stands for Application Programming Interface
+true
+
+16167404
+static is a not the state of a method
+false
+
+16167907
+boolean data type has two or more values
+false
+
+16167258
+A method that provides string formatting
+printf()
+
+16167563
+Scanner class used to get user input.
+true
+
+16167259
+print() prints string inside the quotes and leaves the prompt the same line.
+true
+
+16168636
+Java is a portable language that could run on any platform
+True
+
+16167344
+Netbeans Matisse  doesn't support internationalization, and industrial look-and-feel rules, which is very important for large scale application meant to be spread world wide.
+false
+
+16167337
+An IDE has version control system
+true
+
+16167147
+int has a width of 4 bytes
+true
+
+16167141
+Every statement in Java language should end with a?
+Semicolon
+
+16167247
+A Netbeans feature that gives it an extensible Component Palette pre-installed Swing and AWT components, showing a components tree and properties, automatic code generation and full JavaBeans support.
+GUI Builder
+
+16167145
+byte has a minimum value of -127
+false
+
+16167511
+A feature of Netbeans that makes it to have an easily configured user interface and  a modular architecture extensible with additional plugins.
+environment
+
+16168466
+short has a value that ranges from -32768 to 32767
+true
+
+16167680
+short has a value that ranges from -32768 to 32767
+true
+
+16167546
+Original name of Java
+Oak
+
+16167253
+A multi-line comment enclosed within /* */
+true
+
+16167657
+What is the default return type of a method in Java language?
+void
+
+16167553
+A feature of java that means that the Java interpreter can execute the bytecodes directly on any machine to which the interpreter
+Interpreted, threaded, and dynamic
+
+16167148
+float has a width of 4 bytes.
+true
+
+16167525
+Scanner class is found on what java package?
+java.util
+
+16167331
+The main method is static because it must be called before the class that hosts the method is instantiated
+true
+
+16168879
+"\new" is an escape character for new line.
+false
+
+16167429
+A valid identifier in Java language may contain which characters?
+All the choices
+
+16167944
+println belongs to the System class.
+true
+
+16167484
+In standalone Java applications, which method is mandatory?
+main method
+
+16167925
+All methods and variables in Java language are kept inside a?
+Class or Interface
+
+16167406
+double data type has a width of 8 in bytes.
+true
+
+16167155
+Escape character for new line.
+\n
+
+16167319
+Java source code is compiled to produce bytecode file
+True
+
+16167238
+A browser that was developed in 1995 to support Java.
+Netscape Navigator
+
+16167727
+All methods and variables in Java language are kept inside a Class?
+true
+
+16167485
+The main method is non-static because it must be called before the class that hosts the method is instantiated
+false
+
+16167644
+The project startup name of Netbeans.
+Xelfi
+
+16167877
+It reads a double value from the user.
+nextDouble()
+
+16167645
+Netbeans started as a student project called Selfie
+false
+
+16167430
+main method is int because the Java interpreter does not expect to receive or process any output from the class.
+false
+
+16167505
+
+Square
+
+16167349
+What is the default return type of a main method in Java language?
+void
+
+16167653
+The loader for java applications.
+java
+
+16167325
+A valid identifier in Java language may contain which characters?
+All the choices
+
+16167905
+Most IDEs today doesn't have GUI modeling utilities that simplify the development  of UIs.
+false
+
+16167345
+What is the use of Access modifier "public" in Java language?
+To call the main method outside of Class or Package by JVM
+
+16167656
+short has a width of 2 bytes
+true
+
+16167482
+A multi-line comment enclosed within /*  ….   **/
+false
+
+16167555
+A Netbeans feature that provides XML, DTD and CSS Text Editor and XML Productivity Tools Wizards to help user generate codes.
+XML
+
+16167518
+Sun Microsystems is now a subsidiary of ?
+Oracle Corporation
+
+16167549
+Choose a Single Line Comment in Java Language below?
+//Some comments
+
+16167403
+Choose a multiline comment in Java language below?
+/*comments are going cars are moving*/
+
+16167143
+API stands for Application Programmable Interface
+false
+
+16167412
+Choose a Single Line Comment in Java Language below?
+//Some comments
+
+16167528
+nextDouble () reads a double value from the user.
+true
+
+16167500
+What is the default return type of a main method in Java language?
+void
+
+16167766
+The main method is non-static because it must be called before the class that hosts the method is instantiated
+false
+
+16167767
+println() prints string inside the quotes then the cursor moves to the beginning of the next line
+true
+
+16167519
+Java Bytecode File Extension name is .java.
+False
+
+16167151
+A multi-line comment enclosed within /* */
+true
+
+16167246
+A feature of of Netbeans for supporting the J2EE 1.3 and 1.4 standards with web application build support based on Apache Ant.
+web development
+
+16167257
+
+HelloWorld
+
+16167159
+"\tab" is an escape character for tab.
+false
+
+16167425
+A documentation or javadoc comment is enclosed between /** and */
+true
+
+16167725
+One of the tools for Object oriented design doesn't include object inspector
+false
+
+16167765
+What is the feature of Netbeans for Language independent debugger core, variable modification and watches, various breakpoints and "Fix and Continue" mechanism.
+Award Winning Debugger
+
+16167256
+static is a state of a method
+true
+
+16167156
+%d is for used for decimal
+true
+
+16167400
+A feature of java that means that Java can be programmed without extensive programmer training while being attuned to current software practices
+Simple, object-oriented, and familiar
+
+16167504
+int has a width of 8 bytes
+false
+
+16167643
+IDE stands for?
+Integrated Development Environment
+
+16167409
+integer data type is for whole numbers only.
+true
+
+16167548
+The __________ creates a software simulation of a CPU and memory and handles all communication between the Java program and the underlying operating system and hardware.
+JVM
+
+16167433
+nextInteger () reads a integer value from the user.
+false
+
+16167675
+In what year was java release as a core component of Sun Microsystems' Java platform?
+1995
+
+16167679
+The class keyword defines a template for an object of derived type HelloWorld
+true
+
+16167676
+The very first web browser created by Java.
+WebRunner
+
+16167677
+JUM handles all communication between the Java program and the underlying operating system and hardware.
+False
+
+16167427
+What is the need to mention "static" before main method?
+Both Options 1 and 2
+
+16167241
+A command for the documentation generator
+javadoc
+
+16167648
+A method that prints string inside the quotes then the cursor moves to the beginning of the next line
+println()
+
+16167136
+James Gosling works for what company when they developed java?
+Sun Microsystems
+
+16167678
+The command to compile a java source code.
+javac
+
+16167417
+Most IDEs today have GUI modeling utilities that simplify the development  of UIs.
+true
+
+16167652
+File extension name of a java file is .javac.
+False
+
+16167522
+The identifier name may be a reserved word.
+false
+
+16167514
+short has a width of 4 bytes
+false
+
+16167954
+Name of a Class, Variable, Method or an Interface in Java language is called?
+Identifier
+
+16167414
+File extension name of a java file.
+.java
+
+16167332
+println belongs to the System class.
+true
+
+16167943
+What are the valid White Spaces available in Java language?
+All the above
+
+16167413
+"\\\" is an escape character for printing '\'.
+false
+
+16167351
+printf() prints string inside the quotes and leaves the prompt the same line.
+false
+
+16169063
+println()provides string formatting.
+false
+
+16167144
+A string is enclosed with double quotation marks.
+true
+
+16167566
+nextLine () reads a String value from the user.
+true
+
+16167328
+A string is enclosed with single quotation marks.
+false
+
+16167845
+main method is int because the Java interpreter does not expect to receive or process any output from the class.
+false
+
+16167407
+short has a width of 4 bytes
+false
+
+16167554
+One of the tools for Object oriented design doesn't include class browser
+false
+
+16167512
+A feature of Netbeans with Syntax highlighting for Java, XML, HTML, CSS, JSP and IDL, full support of new JDK 1.5 features, live parsing/error marking, popup javadoc, code completion, and fast class importing.
+Code Editor
+
+16167598
+Escape character for tab.
+\t
+
+16167149
+
+HelloWorld
+
+16167418
+A Netbeans feature that provides the services common to almost all large desktop applications such as: window, menu, settings management and storage, file access and more.
+NetBeans Platform
+
+16167401
+A feature of java that means Java technology is designed to support applications that will be deployed into heterogeneous network environments
+Architecture neutral and portable
+
+16167405
+Every statement in Java language should end with ","?
+false
+
+16167154
+out is a public static field
+true
+
+16167844
+What is the need to mention "static" before main method?
+Both Options 1 and 2
+
+16167642
+Dennis Ritchie developed Java?
+False
+
+16167640
+Java Bytecode File Extension name.
+.class
+
+16167502
+The main method is declared public so that it is accessible as part of the public interface of the program.
+true
+
+16167248
+A function in C language is similar to what in Java language?
+Method
+
+16167903
+The main method is declared private so that it is accessible as part of the private interface of the program.
+false
+
+16167593
+float has a width of 4 bytes.
+true
+
+16167353
+nextDbl () reads a double value from the user.
+false
+
+16167876
+Choose a multiline comment in Java language below?
+/*comments are going cars are moving*/
+
+16167654
+An IDE has build-automation tools.
+true
+
+16167524
+double and float data types are used for numbers with decimal places
+true
+
+16167138
+An IDE consists of Compiler and/or interpreter.
+true
+
+16167726
+The System keyword defines a template for an object of derived type HelloWorld
+false
+
+16258904
+
+0 1 2 3 4 5 6 7 8
+
+16259330
+An operator that can be used to add String objects.
++
+
+16259358
+The for loop executes a given statement or block of statements repeatedly as long as the value of the expression is true.
+false
+
+16242556
+An operator that increases the value of operand by 1.
+++
+
+16259447
+
+2 Month and 9 days
+
+16259423
+
+6
+
+16244400
+10&gt;15 &amp;&amp; 2&lt;3&amp;&amp;100&lt;23
+false
+
+16244406
+
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ...
+
+16258964
+
+Compilation Error
+
+16259553
+The ____ statement enables your program to selectively execute other statements, based on some criteria
+if
+
+16259648
+<span style="font-size: 13.5pt; font-family: Roboto , serif;">Which of the following declares an array of integers named number?</span>
+int [ ] number ;
+
+16259416
+It is a mathematical function that takes two operands and performs a calculation on them.
+arithmetic operator
+
+16259419
+
+4
+
+16259448
+
+e = 50 e = 51
+
+16258951
+shift operator returns the result of shifting the bits of the left operand by the number of positions specified by the right operand.
+true
+
+16258902
+The _____ statement causes the program flow to exit prematurely from the body of the loop statement.
+break
+
+16259181
+
+2 4
+
+16244403
+The _______ loop facilitates evaluation of condition or expression at the end of the loop to ensure that the statements are executed at least once
+do while
+
+16261468
+Consider the following codes:
+1
+
+16259456
+
+ArrayOutput2 does not compile, but ArrayOutput1 will compile
+
+16259176
+
+Lamp switch-on true Lamp switch-on true
+
+16258906
+
+Throws ArrayIndexOutOfBoundsException
+
+16259510
+
+Lamp switch-on false Lamp switch-on false
+
+16259997
+
+hi hi hi bye
+
+16259944
+An operator that copies a bit to the result if it exists in both operands.
+&amp; (bitwise AND)
+
+16259175
+It divides left operand with the right operand and assign the result to left operand.
+/=
+
+16259684
+What is the result of 7%2
+1
+
+16260203
+
+1
+
+16242561
+It subtracts right operand from the left operand and assign the result to left operand.
+-=
+
+16259467
+When a piece of code runs unintentionally forever it is known as
+An infinite loop
+
+16259452
+
+x = 3 x = 2 x = 1 x = 0 x = -1
+
+16258896
+An operator that subtracts right-hand operand from left-hand operand.
+-
+
+16259425
+<b><span style="font-size: 13.5pt; font-family: Roboto , serif;">What is the index value of the first element?</span></b>
+0
+
+16260431
+The continue statement causes the program flow to exit prematurely from the body of the loop statement.
+false
+
+16259327
+
+1 0 0 0 0 0 0 1 8 0 0 0 0 0 1 8 7 0 0 0 0 1 8 7 4 0 0 0 1 8 7 4 5 0 0 1 8 7 4 5 6 0 1 8 7 4 5 6 3
+
+16259445
+An operator that divides left-hand operand by right-hand operand and returns remainder.
+%
+
+16258905
+
+"Prints = 7"
+
+16259335
+The break statement causes the program flow to skip over and jump to the end of the loop body, and then return the control to the loop control statement.
+false
+
+16259178
+The while loop executes a given statement or a block of statements for a definite number of times.
+false
+
+16259348
+
+0 1 2 3 4
+
+16258953
+What is the result of -7%2
+-1
+
+16262416
+Which is first incremented and then used?
+++x
+
+16242558
+An operator that copies a bit if it exists in either operand.
+| (bitwise OR)
+
+16259685
+
+3
+
+16259360
+The lbl identifies any valid statement to which control must be transferred
+false
+
+16242571
+
+10 9 8 7 6
+
+16259994
+
+Throws ArrayIndexOutOfBoundsException
+
+16260425
+Use to reverse the logical state of its operand.
+!
+
+16259343
+If both the operands are non-zero, then the condition becomes true.
+&amp;&amp;
+
+16258958
+
+true false false true true
+
+16260505
+The label identifies any valid statement to which control must be transferred
+true
+
+16259332
+
+1146 11
+
+16258908
+
+1 1 1 1 1 1 1 0 8 8 8 8 8 8 0 0 7 7 7 7 7 0 0 0 4 4 4 4 0 0 0 0 5 5 5 0 0 0 0 0 6 6 0 0 0 0 0 0 3
+
+16259992
+
+2
+
+16244395
+Increment operators increase the value of the variable by a particular number by which it is increased
+true
+
+16259647
+
+12, 11, 13, 9, 15, 25
+
+16259357
+
+a=11024
+
+16259182
+
+Holding the name, social security number, age, and income of one individual.
+
+16259993
+
+false true
+
+16242567
+The break statement causes the program flow to exit from the body of the switch construct.
+true
+
+16259331
+
+4 5 266
+
+16259686
+The continue statement causes the program flow to exit from the body of the switch construct.
+false
+
+16259336
+
+j = j+2
+
+16242557
+Dividing integer by zero results in the throwing of ____________
+ArithmeticException
+
+16259359
+The break statement causes the program flow to exit prematurely from the body of the loop statement.
+true
+
+16244409
+
+Result = 4320
+
+16258954
+
+1
+
+16258961
+
+1 2 3
+
+16258965
+
+Throws ArrayIndexOutOfBoundsException
+
+16259942
+is an operator used to perform bitwise operations on bit patterns or binary numerals that involve the manipulation of individual bits
+bitwise operator
+
+16242560
+
+1
+
+16259995
+<b><span style="font-size: 13.5pt; font-family: Roboto , serif;">What is the Enhanced for Loop (foreach)?</span></b>
+It transverses all elements of a collection.
+
+16259741
+
+4
+
+16259996
+The ________ identifies any valid statement to which control must be transferred
+label
+
+16258960
+The ______ loop executes a given statement or block of statements repeatedly as long as the value of the expression is true.
+while
+
+16244404
+
+hi hi hi
+
+16244407
+
+Result of multiplying every element = 630.
+
+16259352
+An operator that has the effect of 'flipping' bits.
+~ (bitwise compliment)
+
+16259421
+The for loop facilitates evaluation of condition or expression at the end of the loop to ensure that the statements are executed at least once
+false
+
+16259742
+
+Result = 4320
+
+16242566
+
+10
+
+16259184
+
+1 0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 3
+
+16242565
+
+a | b = true a b = false a ^ b = true a ^ !b = false !a b = false !a || !b = true
+
+16242568
+The ______ loop executes a given statement or a block of statements for a definite number of times.
+for
+
+16258959
+The case statement is used to conditionally perform statements based on an integer expression
+false
+
+16259334
+The for loop is for traversing items in a collection
+false
+
+16259323
+The statements associated with else keyword is executed if the value of the switch variable does not match any of the case constants.
+true
+
+16259341
+What is the operator in which The left operands value is moved right by the number of bits specified by the right operand and shifted values are filled up with zeros.
+>>>
+
+16296847
+A _____ is a procedure associated with a class that describes an action an object is able to perform.
+method
+
+16372570
+________ is a technique of solving a problem and breaking it down into smaller parts and solving each of the smaller problems.
+Procedural Programming
+
+16372567
+Which concept of Java is a way of converting real world objects in terms of class?
+Abstraction
+
+16373293
+When we want to print in Java, we use the code ......
+System.out.println();
+
+16372558
+True or False: // allows for a single line comment?
+True
+
+16271100
+Standard Methods – implement the business rules for which the application is being developed
+false
+
+16372602
+Global Variables are variables used in a method
+false
+
+16373179
+final Method: a method that cannot be overridden
+true
+
+16372601
+this - It represents an instance of the class in which it appears
+true
+
+16373183
+this can be used to refer current class instance variable.
+true
+
+16372743
+While using encapsulation, which among the following is possible?
+Data member's data type can be changed without changing any other code
+
+16271103
+Which among the following best describes encapsulation?
+It is a way of combining various data members and member functions that operate on those data members into a single unit
+
+16372835
+Abstraction is the way to add functions in a user defined structure.
+False
+
+16296856
+Using encapsulation data security is ___________
+Ensured to some extent
+
+16372552
+Which among the following should be encapsulated?
+The data which is prone to change is near future
+
+16372604
+In hierarchical inheritance, all the classes involve some kind of inheritance.
+False
+
+16373163
+Which programming language doesn't support multiple inheritance?
+Java
+
+16372574
+Which among the following is true?
+Java doesn't support multiple inheritance
+
+16271112
+Which constructor will be called first from the classes involved in single inheritance from object of derived class?
+Base class constructor
+
+16372742
+Where does a java program start executing instructions from:
+main method
+
+16372706
+Which of the following concept is often expressed by the phrase, 'One interface, multiple methods'?
+Polymorphism
+
+16296845
+Method overriding is combination of inheritance and polymorphism?
+True
+
+16372598
+Encapsulation means "open to all" and indicates that the internal workings of an object are entirely visible to the outside world.
+False
+
+16271101
+this - It can be used to access class variables and methods.
+true
+
+16372496
+a method that is only accessible within the class where it is declared.
+private method
+
+16372571
+Class Variables are variables stored in the class and are available to all objects of a class or objects of other classes if access is permitted
+true
+
+16296854
+The encapsulation is achieved by combining which ones into a class?
+Methods and Attribute
+
+16372498
+Encapsulation is also called as?
+Data Hiding
+
+16372572
+Encapsulation is implemented by using__________
+private
+
+16372563
+If data members are private, what can we do to access them from the class object?
+Create public member functions to access those data members
+
+16372963
+How many classes can be inherited by a single class in java?
+Only 1
+
+16372922
+If single inheritance is used, program will contain ________________
+At least 2 classes
+
+16372566
+If base class contains 2 nested classes, will it be possible to implement single level inheritance?
+Yes, always
+
+16372610
+Which among the following best describes the Inheritance?
+Using the data and functions into derived segment
+
+16271094
+State of an object are also known as
+properties
+
+16372542
+Which of following statement(s) can result in new object instance creation if executed successfully.
+All
+
+16372921
+This – contains a reference to the current object being constructed
+false
+
+16372831
+Constructor – a method that is automatically executed when an object is created. This method is used to initialize the attributes.
+true
+
+16271098
+Attributes –  declared either at the start or end of a class definition. These variables identify the  data stored in the object.
+true
+
+16296858
+In Inheritance, the programmer can change one part of the code without affecting other parts
+false
+
+16296857
+There is no security of data with Encapsulation
+false
+
+16372564
+How can you make the private members inheritable?
+It can be done both by making the visibility mode public or protected
+
+16372837
+If a base class is inherited in protected access mode then which among the following is true?
+Public and Protected members of base class becomes protected members of derived class
+
+16372836
+Which among the following best defines single level inheritance?
+A class inheriting a base class
+
+16372599
+What is the difference between a class and an object?
+A class is a blueprint to make an object
+
+16373057
+a method that is accessible within and outside the package but through inheritance only.
+protected
+
+16372545
+These variables identify the  data stored in the object.
+Attributes
+
+16372497
+static Variable used in defining a class variable
+true
+
+16372611
+Which among the following is correct for a hierarchical inheritance?
+One base class can be derived into other two derived classes or more
+
+16372501
+If multi-level inheritance is used, First class B inherits class A, then C inherits B and so on. Till how many classes can this go on?
+There is no limit
+
+16271108
+Which is the correct syntax of inheritance?
+class derived_classname : access base_classname{ /*define class body*/ };
+
+16372554
+Which among the following defines single level inheritance?
+One derived class inherits from one base class
+
+16372597
+When Overloading does not occur?
+More than one method with same name, same number of parameters and type but different signature
+
+16373000
+Which of the following is a mechanism by which object acquires the properties of another object?
+Inheritance
+
+16372557
+Which statement(s) best describes an object's behavior?
+Behavior acts like the verbs of an object.
+
+16373012
+How do I print out numbers on JAVA?
+System.out.println(#);
+
+16372492
+True or False: This line of code is correct System.out.println("Hi!");
+True
+
+16372832
+this keyword can be passed as an argument in the method call.
+true
+
+16372549
+Instance Variables are variables stored in the class and are available to all objects of a class or objects of other classes if access is permitted
+false
+
+16271102
+a variable that is only accessible within a class where it is declared
+private variable
+
+16372603
+There is an Increased security of data with Encapsulation
+true
+
+16372551
+Encapsulation is implemented by using private
+true
+
+16296862
+Single level inheritance will be best for___________
+Inheriting a class which can print all the calculation results
+
+16296848
+OOP describes the task to be performed on objects.
+true
+
+16372543
+Which one of these is a data type?
+byte
+
+16373011
+What is it called if an object has its own lifecycle and there is no owner?
+Association
+
+16372920
+_________– implement the business rules for which the application is being developed
+Custom Methods
+
+16373201
+a method a method that is accessible from all classes.
+public method
+
+16373014
+this() can be used to invoke current class constructor.
+true
+
+16296853
+a variable that is accessible within and outside the package but through inheritance only.
+protected variable
+
+16372600
+Accessor (Getter) – a method that is used to access or retrieve data.
+true
+
+16372550
+Encapsulation is supported by ___________
+Classes
+
+16271107
+Encapsulation has poor control of class attributes and methods
+false
+
+16372834
+Encapsulation has Better control of class attributes and methods
+true
+
+16372500
+Which among the following best describes multiple inheritance?
+More than one class being parent of single child
+
+16372493
+The focus of procedural programming is to break down a programming task into a collection of variables, data structures, and subroutines
+true
+
+16373174
+Select correct statements about class(es).
+All
+
+16296850
+_________– a method that is used to access or retrieve data.
+Accessor (Getter)
+
+16372546
+_________– used to change or access the private data in an object.
+Standard Methods
+
+16373138
+static Method: used in defining a class method
+true
+
+16271106
+In Encapsulation, the programmer can change one part of the code without affecting other parts
+true
+
+16372833
+Which among the following would destroy the encapsulation mechanism if it was allowed in programming?
+Using access declaration for private members of base class
+
+16271111
+Which type of inheritance cannot involve private inheritance?
+All types can have private inheritance
+
+16372575
+What is the output of the following program? class A { float sal = 40000; }...
+B salary is: 4000.0 Bonus of B is: 10000
+
