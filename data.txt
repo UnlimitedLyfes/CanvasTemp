@@ -1,492 +1,72 @@
-16167728
-A function in C language is similar to what in Java language?
-Method
-
-16168837
-In standalone Java applications, which method is mandatory?
-main method
-
-16167341
-Netbeans started as a student project called Xelfi
-true
-
-16167324
-A feature of Netbeans that enables support for multiple source roots, easy management of libraries, easily ported to other environments, all based on Apache Ant.
-project system
-
-16167552
-nextLong () reads a long value from the user.
-true
-
-16167521
-API stands for Application Programming Interface
-true
-
-16167404
-static is a not the state of a method
+16777030
+If a class leaves one method in an interface undeclared, the class is implicitly declared by Java as an abstract class.
 false
 
-16167907
-boolean data type has two or more values
+16777026
+In case of using abstract class or function overloading, which function is supposed to be called first?
+Function with highest priority in compiler
+
+16786555
+An abstract class cannot have instance data and non-abstract methods.
 false
 
-16167258
-A method that provides string formatting
-printf()
-
-16167563
-Scanner class used to get user input.
-true
-
-16167259
-print() prints string inside the quotes and leaves the prompt the same line.
-true
-
-16168636
-Java is a portable language that could run on any platform
-True
-
-16167344
-Netbeans Matisse  doesn't support internationalization, and industrial look-and-feel rules, which is very important for large scale application meant to be spread world wide.
-false
-
-16167337
-An IDE has version control system
-true
-
-16167147
-int has a width of 4 bytes
-true
-
-16167141
-Every statement in Java language should end with a?
-Semicolon
-
-16167247
-A Netbeans feature that gives it an extensible Component Palette pre-installed Swing and AWT components, showing a components tree and properties, automatic code generation and full JavaBeans support.
-GUI Builder
-
-16167145
-byte has a minimum value of -127
-false
-
-16167511
-A feature of Netbeans that makes it to have an easily configured user interface and  a modular architecture extensible with additional plugins.
-environment
-
-16168466
-short has a value that ranges from -32768 to 32767
-true
-
-16167680
-short has a value that ranges from -32768 to 32767
-true
-
-16167546
-Original name of Java
-Oak
-
-16167253
-A multi-line comment enclosed within /* */
-true
-
-16167657
-What is the default return type of a method in Java language?
-void
-
-16167553
-A feature of java that means that the Java interpreter can execute the bytecodes directly on any machine to which the interpreter
-Interpreted, threaded, and dynamic
-
-16167148
-float has a width of 4 bytes.
-true
-
-16167525
-Scanner class is found on what java package?
-java.util
-
-16167331
-The main method is static because it must be called before the class that hosts the method is instantiated
-true
-
-16168879
-"\new" is an escape character for new line.
-false
-
-16167429
-A valid identifier in Java language may contain which characters?
-All the choices
-
-16167944
-println belongs to the System class.
-true
-
-16167484
-In standalone Java applications, which method is mandatory?
-main method
-
-16167925
-All methods and variables in Java language are kept inside a?
-Class or Interface
-
-16167406
-double data type has a width of 8 in bytes.
-true
-
-16167155
-Escape character for new line.
-\n
-
-16167319
-Java source code is compiled to produce bytecode file
-True
-
-16167238
-A browser that was developed in 1995 to support Java.
-Netscape Navigator
-
-16167727
-All methods and variables in Java language are kept inside a Class?
-true
-
-16167485
-The main method is non-static because it must be called before the class that hosts the method is instantiated
-false
-
-16167644
-The project startup name of Netbeans.
-Xelfi
-
-16167877
-It reads a double value from the user.
-nextDouble()
-
-16167645
-Netbeans started as a student project called Selfie
-false
-
-16167430
-main method is int because the Java interpreter does not expect to receive or process any output from the class.
-false
-
-16167505
-
-Square
-
-16167349
-What is the default return type of a main method in Java language?
-void
-
-16167653
-The loader for java applications.
-java
-
-16167325
-A valid identifier in Java language may contain which characters?
-All the choices
-
-16167905
-Most IDEs today doesn't have GUI modeling utilities that simplify the development  of UIs.
-false
-
-16167345
-What is the use of Access modifier "public" in Java language?
-To call the main method outside of Class or Package by JVM
-
-16167656
-short has a width of 2 bytes
-true
-
-16167482
-A multi-line comment enclosed within /*  ….   **/
-false
-
-16167555
-A Netbeans feature that provides XML, DTD and CSS Text Editor and XML Productivity Tools Wizards to help user generate codes.
-XML
-
-16167518
-Sun Microsystems is now a subsidiary of ?
-Oracle Corporation
-
-16167549
-Choose a Single Line Comment in Java Language below?
-//Some comments
-
-16167403
-Choose a multiline comment in Java language below?
-/*comments are going cars are moving*/
-
-16167143
-API stands for Application Programmable Interface
-false
-
-16167412
-Choose a Single Line Comment in Java Language below?
-//Some comments
-
-16167528
-nextDouble () reads a double value from the user.
-true
-
-16167500
-What is the default return type of a main method in Java language?
-void
-
-16167766
-The main method is non-static because it must be called before the class that hosts the method is instantiated
-false
-
-16167767
-println() prints string inside the quotes then the cursor moves to the beginning of the next line
-true
-
-16167519
-Java Bytecode File Extension name is .java.
-False
-
-16167151
-A multi-line comment enclosed within /* */
-true
-
-16167246
-A feature of of Netbeans for supporting the J2EE 1.3 and 1.4 standards with web application build support based on Apache Ant.
-web development
-
-16167257
-
-HelloWorld
-
-16167159
-"\tab" is an escape character for tab.
-false
-
-16167425
-A documentation or javadoc comment is enclosed between /** and */
-true
-
-16167725
-One of the tools for Object oriented design doesn't include object inspector
-false
-
-16167765
-What is the feature of Netbeans for Language independent debugger core, variable modification and watches, various breakpoints and "Fix and Continue" mechanism.
-Award Winning Debugger
-
-16167256
-static is a state of a method
-true
-
-16167156
-%d is for used for decimal
-true
-
-16167400
-A feature of java that means that Java can be programmed without extensive programmer training while being attuned to current software practices
-Simple, object-oriented, and familiar
-
-16167504
-int has a width of 8 bytes
-false
-
-16167643
-IDE stands for?
-Integrated Development Environment
-
-16167409
-integer data type is for whole numbers only.
-true
-
-16167548
-The __________ creates a software simulation of a CPU and memory and handles all communication between the Java program and the underlying operating system and hardware.
-JVM
-
-16167433
-nextInteger () reads a integer value from the user.
-false
-
-16167675
-In what year was java release as a core component of Sun Microsystems' Java platform?
-1995
-
-16167679
-The class keyword defines a template for an object of derived type HelloWorld
-true
-
-16167676
-The very first web browser created by Java.
-WebRunner
-
-16167677
-JUM handles all communication between the Java program and the underlying operating system and hardware.
-False
-
-16167427
-What is the need to mention "static" before main method?
-Both Options 1 and 2
-
-16167241
-A command for the documentation generator
-javadoc
-
-16167648
-A method that prints string inside the quotes then the cursor moves to the beginning of the next line
-println()
-
-16167136
-James Gosling works for what company when they developed java?
-Sun Microsystems
-
-16167678
-The command to compile a java source code.
-javac
-
-16167417
-Most IDEs today have GUI modeling utilities that simplify the development  of UIs.
-true
-
-16167652
-File extension name of a java file is .javac.
-False
-
-16167522
-The identifier name may be a reserved word.
-false
-
-16167514
-short has a width of 4 bytes
-false
-
-16167954
-Name of a Class, Variable, Method or an Interface in Java language is called?
-Identifier
-
-16167414
-File extension name of a java file.
-.java
-
-16167332
-println belongs to the System class.
-true
-
-16167943
-What are the valid White Spaces available in Java language?
-All the above
-
-16167413
-"\\\" is an escape character for printing '\'.
-false
-
-16167351
-printf() prints string inside the quotes and leaves the prompt the same line.
-false
-
-16169063
-println()provides string formatting.
-false
-
-16167144
-A string is enclosed with double quotation marks.
-true
-
-16167566
-nextLine () reads a String value from the user.
-true
-
-16167328
-A string is enclosed with single quotation marks.
-false
-
-16167845
-main method is int because the Java interpreter does not expect to receive or process any output from the class.
-false
-
-16167407
-short has a width of 4 bytes
-false
-
-16167554
-One of the tools for Object oriented design doesn't include class browser
-false
-
-16167512
-A feature of Netbeans with Syntax highlighting for Java, XML, HTML, CSS, JSP and IDL, full support of new JDK 1.5 features, live parsing/error marking, popup javadoc, code completion, and fast class importing.
-Code Editor
-
-16167598
-Escape character for tab.
-\t
-
-16167149
-
-HelloWorld
-
-16167418
-A Netbeans feature that provides the services common to almost all large desktop applications such as: window, menu, settings management and storage, file access and more.
-NetBeans Platform
-
-16167401
-A feature of java that means Java technology is designed to support applications that will be deployed into heterogeneous network environments
-Architecture neutral and portable
-
-16167405
-Every statement in Java language should end with ","?
-false
-
-16167154
-out is a public static field
-true
-
-16167844
-What is the need to mention "static" before main method?
-Both Options 1 and 2
-
-16167642
-Dennis Ritchie developed Java?
-False
-
-16167640
-Java Bytecode File Extension name.
-.class
-
-16167502
-The main method is declared public so that it is accessible as part of the public interface of the program.
-true
-
-16167248
-A function in C language is similar to what in Java language?
-Method
-
-16167903
-The main method is declared private so that it is accessible as part of the private interface of the program.
-false
-
-16167593
-float has a width of 4 bytes.
-true
-
-16167353
-nextDbl () reads a double value from the user.
-false
-
-16167876
-Choose a multiline comment in Java language below?
-/*comments are going cars are moving*/
-
-16167654
-An IDE has build-automation tools.
-true
-
-16167524
-double and float data types are used for numbers with decimal places
-true
-
-16167138
-An IDE consists of Compiler and/or interpreter.
-true
-
-16167726
-The System keyword defines a template for an object of derived type HelloWorld
-false
+16786360
+Here is an abstract method defined in the parent: public abstract int sumUp ( int[] arr ); Which of the following is required in a non-abstract child?
+public int sumUp ( int[] arr ) { . . . }
+
+16786557
+Can an object of a child type be assigned to a variable of the parent type? For example, Card crd; BirthDay bd = new BirthDay("Lucinda", 42); crd = bd;   //  is this correct?
+Yes--an object can be assigned to a reference variable of the parent type.
+
+16786558
+What is polymorphism in Java?
+It is when a single variable is used with several different types of related objects at different places in a program.
+
+16777033
+Which of the following classes fail to compile?  abstract class X { abstract void method(); }  abstract class Y extends X { void Method() { } }  abstract class Z extends Y { void Method() { System.out.println("Class Z"); } }
+All classes compile
+
+16786559
+What determines what method is run in the following: Card crd = new BirthDay("Lucinda", 42); crd.greeting(); The type of the object or the type of the reference variable?
+The type of the object.
+
+16786560
+Which of the following classes fail to compile?  abstract class X { abstract void method(); }  abstract class Y extends X { }  class Z extends Y { void method() { System.out.println("Class Z"); } }  
+All classes compile
+
+16786562
+The built-in base class in Java, which is used to handle all exceptions is
+Throwable
+
+16786561
+An exception may arise when _______________
+Input given is invalid
+
+16786564
+Will this code compile?  public class Test extends Exception{&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; public static void main(String[] args){  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; try{  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("My Custom Exception test");  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; throw new Test();  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }catch(Exception e){  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("Test Exception");  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   }
+Yes
+
+16784294
+What method of an Exception object returns a message string?
+getMessage()
+
+16786563
+A method must do either of two things with a checked exception. What are those two things?
+(1) Handle the exception in a catch{} block, or (2) throw the exception to the method that called this method.
+
+16777508
+What will happen when you compile and run the following code with assertion enabled?  &nbsp;  public class Test{  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; public static void main(String[] args){  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert getAge() &gt; 20 : "Not valid";  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("Valid");  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }  &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private static int getAge() {  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 21;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   }
+The code will compile and print Valid
+
+16786567
+Which three statements are true?  &nbsp;  Option1: Assertion checking is typically enabled when a program is deployed.  Option2:It is never appropriate to write code to handle failure of an assert statement.  Option3:Assertion checking is typically enabled during program development and testing.  Option4:Assertion checking can be selectively enabled or disabled on a per-package basis, but not on a per-class basis.  Option5:Assertion checking can be selectively enabled or disabled on both a per-package basis and a per-class basis.  
+2,3,5
+
+16786566
+public class Test2&nbsp;  {  &nbsp; &nbsp; public static int x;  &nbsp; &nbsp; public static int foo(int y)&nbsp;  &nbsp; &nbsp; {  &nbsp; &nbsp; &nbsp; &nbsp; return y * 2;  &nbsp; &nbsp; }  &nbsp; &nbsp; public static void main(String [] args)&nbsp;  &nbsp; &nbsp; {  &nbsp; &nbsp; &nbsp; &nbsp; int z = 5;  &nbsp; &nbsp; &nbsp; &nbsp; assert z &gt; 0; /* Line 11 */  &nbsp; &nbsp; &nbsp; &nbsp; assert z &gt; 2: foo(z); /* Line 12 */  &nbsp; &nbsp; &nbsp; &nbsp; if ( z &lt; 7 )  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; assert z &gt; 4; /* Line 14 */  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; switch (z)&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; {  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; case 4: System.out.println("4 ");  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; case 5: System.out.println("5 ");  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; default: assert z &lt; 10;  &nbsp; &nbsp; &nbsp; &nbsp; }  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; if ( z &lt; 10 )  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; assert z &gt; 4: z++; /* Line 22 */  &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(z);  &nbsp; &nbsp; }  }  Which line is an example of an inappropriate use of assertions?
+Line 22
+
+16784298
+Program throws ___________ if assert statement fails.
+java.lang.AssertionError
 

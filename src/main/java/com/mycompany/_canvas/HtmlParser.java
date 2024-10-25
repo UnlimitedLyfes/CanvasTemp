@@ -3,33 +3,34 @@ package com.mycompany._canvas;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+import java.util.regex.*;   // For filterQuestion()
 
 class HtmlParser {
     private File htmlFile;
-    private DataHandler dataHandler;            // COULD MAKE HTMLREADER A MEMBER
+    private DataHandler dataHandler;       
+    private Scanner htmlReader;  // COULD MAKE HTMLREADER A MEMBER
+    
     
     public HtmlParser(String htmlFile, String dataFile) {
         this.htmlFile = new File(htmlFile);
         this.dataHandler = new DataHandler(dataFile);
+        try{htmlReader = new Scanner(this.htmlFile);}
+        catch(Exception e){System.out.println("HTMLParser Constructer Failure");}
     }
 
     public void processFile() {
-        try (Scanner htmlReader = new Scanner(htmlFile)) {
-            while (htmlReader.hasNextLine()) {
-                String line = htmlReader.nextLine();
+        while (htmlReader.hasNextLine()) {
+            String line = htmlReader.nextLine();
 
-                if (isPointsLine(line)) {
-                    String foundString = line.trim();
+            if (isPointsLine(line)) {
+                String foundString = line.trim();
 
-                    // Skip if the points are "0"
-                    if (isCorrectAnswer(foundString, htmlReader)) 
-                    {
-                        processQuestion(htmlReader, Integer.parseInt(foundString));
-                    }
+                // Skip if the points are "0"
+                if (isCorrectAnswer(foundString)) 
+                {
+                    processQuestion(Integer.parseInt(foundString));
                 }
             }
-        } catch (FileNotFoundException e) {
-            System.out.println("File not found: " + htmlFile.getName());
         }
         System.out.println("Processing finished");
         dataHandler.closeFiles();
@@ -39,7 +40,7 @@ class HtmlParser {
         return line.matches(".*\\s\\s\\d");
     }
     
-    private boolean isCorrectAnswer(String score, Scanner htmlReader)
+    private boolean isCorrectAnswer(String score)
     {
         if(score != "0")
         {
@@ -52,11 +53,11 @@ class HtmlParser {
         return false;
     }
 
-    private void processQuestion(Scanner htmlReader, int points) {
-        if(extractAndWriteQuestionId(htmlReader))
+    private void processQuestion(int points) {
+        if(extractAndWriteQuestionId())
         {
-            extractAndWriteQuestion(htmlReader);
-            extractAndWriteAnswer(htmlReader);
+            extractAndWriteQuestion();
+            extractAndWriteAnswer();
             dataHandler.writeLine("");
         }
     }
@@ -66,7 +67,7 @@ class HtmlParser {
         return Integer.parseInt(line.substring(index, index + 1));
     }
 
-    private boolean extractAndWriteQuestionId(Scanner htmlReader) {
+    private boolean extractAndWriteQuestionId() {
         while (htmlReader.hasNextLine()) {
             String line = htmlReader.nextLine();
 
@@ -90,14 +91,31 @@ class HtmlParser {
         return Integer.parseInt(line.substring(index1, index2));
     }
     
-    private void extractAndWriteQuestion(Scanner htmlReader)
+    private void extractAndWriteQuestion()
     { 
-        String line = htmlReader.nextLine();
-        line = line.trim();
-        dataHandler.writeLine(line);      
+        String line;
+        String question = "";
+        do{
+            line = htmlReader.nextLine();
+            if(line.contains("</div>"))
+                break;
+            // Get rid of whitespace and html tags
+            line = filterQuestion(line);
+            question = question.concat(line);
+        }while(htmlReader.hasNextLine());
+        dataHandler.writeLine(question);
     }
     
-    private void extractAndWriteAnswer(Scanner htmlReader)
+    private String filterQuestion(String line)
+    {
+        line = line.trim();
+        String regexOfTags = "(?<!\\\\)<.+?>(?!\\\\)";
+        line = line.replaceAll(regexOfTags, "");
+        System.out.println(line);
+        return line;
+    }
+    
+    private void extractAndWriteAnswer()
     {
         //<div class="answer_text" style="display:none;">B salary is: 4000.0 Bonus of B is: 10000</div>
         //<div class="answer_text">System.out.println(#);</div>

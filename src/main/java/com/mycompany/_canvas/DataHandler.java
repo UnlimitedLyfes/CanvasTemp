@@ -24,7 +24,7 @@ public class DataHandler {
         }
     }
     
-    public Scanner createScanner(File file)
+    private Scanner createScanner(File file)
     {
         try
         {
