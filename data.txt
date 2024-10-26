@@ -1,72 +1,72 @@
-16777030
-If a class leaves one method in an interface undeclared, the class is implicitly declared by Java as an abstract class.
-false
+16786419
+If a subclass reference is assigned to a superclass variable, the variable must be cast back to the subclass before any subclass methods can be called with it.
+true
 
-16777026
-In case of using abstract class or function overloading, which function is supposed to be called first?
-Function with highest priority in compiler
+16758889
+What does the name Polymorphism translate to?
+Many forms
 
-16786555
-An abstract class cannot have instance data and non-abstract methods.
-false
+16836008
+If same message is passed to objects of several different classes and all of those can respond in a different way, what is this feature called?
+Polymorphism
 
-16786360
-Here is an abstract method defined in the parent: public abstract int sumUp ( int[] arr ); Which of the following is required in a non-abstract child?
-public int sumUp ( int[] arr ) { . . . }
+16784289
+Fill in the blanks so that the following draws a Frame containing "Hello".  import java.awt.*;     class helloFrame ___________ Frame  {   public void ___________( Graphics g )   {   g.___________("Hello", 10, 50 );    }  }    public class Tester  {   public static void main ( String[] args )   {   helloFrame frm = new helloFrame();    frm.setSize( 150, 100 );    frm.setVisible( true );   }  }  
+extends, paint, drawString
 
-16786557
-Can an object of a child type be assigned to a variable of the parent type? For example, Card crd; BirthDay bd = new BirthDay("Lucinda", 42); crd = bd;   //  is this correct?
-Yes--an object can be assigned to a reference variable of the parent type.
+16777500
+The encapsulation is achieved by combining which ones into a class?
+Methods and Attribute
 
-16786558
-What is polymorphism in Java?
-It is when a single variable is used with several different types of related objects at different places in a program.
+16836019
+Which of the following classes fail to compile?    class X { abstract void method(); }  abstract class Y extends X { }  class Z extends Y { void method() { } }  
+X
 
-16777033
-Which of the following classes fail to compile?  abstract class X { abstract void method(); }  abstract class Y extends X { void Method() { } }  abstract class Z extends Y { void Method() { System.out.println("Class Z"); } }
-All classes compile
+16836018
+Can an abstract class define both abstract methods and non-abstract methods?
+Yes--the child classes inherit both.
 
-16786559
-What determines what method is run in the following: Card crd = new BirthDay("Lucinda", 42); crd.greeting(); The type of the object or the type of the reference variable?
-The type of the object.
+16786363
+If two classes combine some private data members and provides public member functions to access and manipulate those data members. Where is abstraction used?
+Using public member functions to access and manipulate the data members
 
-16786560
-Which of the following classes fail to compile?  abstract class X { abstract void method(); }  abstract class Y extends X { }  class Z extends Y { void method() { System.out.println("Class Z"); } }  
-All classes compile
+16784292
+Which of the following classes fail to compile?  abstract class X { abstract void method(); }  abstract class Y extends X { }  class Z extends Y { void Method() { System.out.println("Class Z"); } }
+Z
 
-16786562
-The built-in base class in Java, which is used to handle all exceptions is
-Throwable
+16777507
+What will be the output of the following program?    public class BlockFinal  {   public static void main(String[] a)   {   try   {   int i = 10 / 0;   }   catch (Exception ex)   {   System.out.println("1st catch Block");   }   finally   {   System.out.println("1st finally block");   }   try   {   int i = 10 / 10;   }   catch (Exception ex)   {   System.out.println("2nd catch Block");   }   finally   {   System.out.println("2nd finally block");   }   }  }  
+1st catch Block 1st finally block 2nd finally block
 
-16786561
-An exception may arise when _______________
-Input given is invalid
+16788196
+Which of the following ways can be used to handle exceptions? X: By wrapping the desired code in a try block followed by a catch block to catch the exceptions. Y: List the desired exceptions in the throws clause of the method and let the caller of the method handle those exceptions.
+Both X and Y
 
-16786564
-Will this code compile?  public class Test extends Exception{&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; public static void main(String[] args){  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; try{  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("My Custom Exception test");  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; throw new Test();  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }catch(Exception e){  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("Test Exception");  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   }
-Yes
+16784296
+What will happen when you compile and run the following code?    public class Test{       String className;      public static void main(String[] args){         try{      Test t = new Test();   if(t.className.equals("Test"))   System.out.print("Test ");   else   System.out.print("Other ");      }catch(Exception e){   System.out.print("Exception ");   }catch(NullPointerException ne){   System.out.print("Null ");   }      }     }  
+Compilation error
 
 16784294
 What method of an Exception object returns a message string?
 getMessage()
 
-16786563
-A method must do either of two things with a checked exception. What are those two things?
-(1) Handle the exception in a catch{} block, or (2) throw the exception to the method that called this method.
+16826891
+What will happen when you compile and run the following code with assertion enabled?    public class Test{      public static void main(String[] args){      int[] marks = {40, 38, 52};    boolean[] pass = {false, false, false};      for(int i = 0 ; i &lt; marks.length; i++){      try{      assert marks[i] &gt;= 40 : pass[i] = true;      }catch(AssertionError ae){   pass[i] = false;   }   }      for(boolean b : pass)   System.out.print(b + ",");         }     }
+The code will compile and print false,false,false,
 
-16777508
-What will happen when you compile and run the following code with assertion enabled?  &nbsp;  public class Test{  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; public static void main(String[] args){  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; assert getAge() &gt; 20 : "Not valid";  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; System.out.println("Valid");  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }  &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; private static int getAge() {  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return 21;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   }
-The code will compile and print Valid
+16786565
+What will happen when you compile and run the following code with assertion enabled?    public class Test{     private static int ALLOW_OBJECTS = 1;     Test(){   assert ALLOW_OBJECTS;   ALLOW_OBJECTS = 0;   }     public static void main(String[] args){   Test t = new Test();   t.getState();   }     private void getState() {   System.out.println(ALLOW_OBJECTS);   }    }
+The code will not compile
 
-16786567
-Which three statements are true?  &nbsp;  Option1: Assertion checking is typically enabled when a program is deployed.  Option2:It is never appropriate to write code to handle failure of an assert statement.  Option3:Assertion checking is typically enabled during program development and testing.  Option4:Assertion checking can be selectively enabled or disabled on a per-package basis, but not on a per-class basis.  Option5:Assertion checking can be selectively enabled or disabled on both a per-package basis and a per-class basis.  
-2,3,5
-
-16786566
-public class Test2&nbsp;  {  &nbsp; &nbsp; public static int x;  &nbsp; &nbsp; public static int foo(int y)&nbsp;  &nbsp; &nbsp; {  &nbsp; &nbsp; &nbsp; &nbsp; return y * 2;  &nbsp; &nbsp; }  &nbsp; &nbsp; public static void main(String [] args)&nbsp;  &nbsp; &nbsp; {  &nbsp; &nbsp; &nbsp; &nbsp; int z = 5;  &nbsp; &nbsp; &nbsp; &nbsp; assert z &gt; 0; /* Line 11 */  &nbsp; &nbsp; &nbsp; &nbsp; assert z &gt; 2: foo(z); /* Line 12 */  &nbsp; &nbsp; &nbsp; &nbsp; if ( z &lt; 7 )  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; assert z &gt; 4; /* Line 14 */  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; switch (z)&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; {  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; case 4: System.out.println("4 ");  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; case 5: System.out.println("5 ");  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; default: assert z &lt; 10;  &nbsp; &nbsp; &nbsp; &nbsp; }  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; if ( z &lt; 10 )  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; assert z &gt; 4: z++; /* Line 22 */  &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(z);  &nbsp; &nbsp; }  }  Which line is an example of an inappropriate use of assertions?
+16777510
+public class Test2   {   public static int x;   public static int foo(int y)    {   return y * 2;   }   public static void main(String [] args)    {   int z = 5;   assert z &gt; 0; /* Line 11 */   assert z &gt; 2: foo(z); /* Line 12 */   if ( z &lt; 7 )   assert z &gt; 4; /* Line 14 */     switch (z)    {   case 4: System.out.println("4 ");   case 5: System.out.println("5 ");   default: assert z &lt; 10;   }     if ( z &lt; 10 )   assert z &gt; 4: z++; /* Line 22 */   System.out.println(z);   }  }  which line is an example of an inappropriate use of assertions?
 Line 22
 
-16784298
-Program throws ___________ if assert statement fails.
-java.lang.AssertionError
+16786369
+Which of the following statements is true?
+It is sometimes good practice to throw an AssertionError explicitly.
+
+16786368
+Running a java program with -ea switch will enable assertion in system classes.
+False
 

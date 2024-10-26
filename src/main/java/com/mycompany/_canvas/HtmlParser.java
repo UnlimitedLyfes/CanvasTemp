@@ -111,6 +111,7 @@ class HtmlParser {
         line = line.trim();
         String regexOfTags = "(?<!\\\\)<.+?>(?!\\\\)";
         line = line.replaceAll(regexOfTags, "");
+        line = line.replaceAll("&nbsp;", "");
         System.out.println(line);
         return line;
     }
